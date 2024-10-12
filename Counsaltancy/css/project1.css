@@ -10,11 +10,28 @@
     
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    /* font-size: 17px; */
  }
  .icon img{
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    
+ }
+ .content{
+  margin-top: 5px;
+ }
+ .content img{
+  height: 15px;
+  width: 15px;
+ }
+ .econtent{
+  margin-top: 5px;
+ }
+ .econtent img{
+  height: 10px;
+  width: 15px;
  }
  .call{
     display: flex;
@@ -23,16 +40,17 @@
     
  }
  nav{
-    height: 100px;
+    height: 70px;
     width: 100%;
     /* background-color: aqua; */
     display: flex;
+    /* justify-content: center; */
     
     background-color: white;
     
  }
  .logo{
-    height: 100px;
+    /* height: 100px; */
     width: 30%;
     /* background-color:forestgreen; */
     display: flex;
@@ -41,14 +59,14 @@
 
  }
  .logo img{
-   height: 50px;
+   height: 30px;
  }
  h1{
    margin-left: 10px;
    margin-top: 8px;
  }
  .menu{
-    height: 100px;
+    /* height: 200px; */
     width: 70%;
     /* background-color: brown; */
     /* align-self: center; */
@@ -57,7 +75,7 @@
  }
  ul{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
 
     justify-content: space-evenly;
@@ -65,13 +83,13 @@
  ul a{
     text-decoration: none;
     /* color: black; */
-    font-size: 20px;
-    margin-top: 20px;
+    /* font-size: px; */
+    /* margin-top: -20px; */
     color: black;
 
  }
  ul li{
-   margin-top: 40px;
+   margin-top: 30px;
    
  }
  .btn{
@@ -82,7 +100,7 @@
    color: white;
    background-color: blue;
    border: none;
-   font-size: 18px;
+   /* font-size: 18px; */
    font-weight: bol;
  }
  .btn:hover{
@@ -99,18 +117,18 @@
  .big{
    height: 650px;
    width: 60%;
-   /* background-color: aquamarine; */
+   background-color: aquamarine;
    display: flex;
    justify-content: center;
-   align-items: self-end;
+   align-items: self-end
 
 
  }
  .unlift{
-   height: 400px;
+   height: 350px;
    width: 75%;
    /* background-color: chartreuse; */
-   margin-bottom: 50px;
+   margin-bottom: 100px;
    margin-left: 20px;
    
    
@@ -126,26 +144,29 @@
    margin: 10px;
  }
  .unlift h1{
-   font-size: 50px;
+   font-size: 33px;
    
  }
  .unlift p{
-   font-size: 20px;
+   /* font-size: 17px; */
    margin-top: 20px;
    margin-left: 10px;
    line-height: 1.4;
  }
  .btn1{
-   padding-left: 12px;
-   padding-right: 12px;
+   /* padding-left: 5px; */
+   /* padding-right: 5px; */
    padding-top: 6px;
    padding-bottom: 6px;
    border: none;
-   margin: 40px;
+   margin-top: 20px;
    margin-left: 10px;
  }
+ .btn1 span{
+  font-size: 17px;
+ }
  .btn1 img{
-   height: 20px;
+   height: 10px;
    width: 20px;
    margin-top: 5px;
    margin-left: 5px; 
@@ -168,7 +189,7 @@
  }
  .img{
    height: 700px;
-   width: 50%;
+   width: 80%;
   
    display: flex;
    justify-content: center;
@@ -190,7 +211,7 @@
    display: flex;
    justify-content: center;
    align-items: self-end;
-   background:url(image-1.png) no-repeat ;
+   background:url(/Counsaltancy/image/image-1.png) no-repeat ;
 
  }
  .card{
@@ -320,7 +341,16 @@
   height: 320px;
   width: 100%;
   background-color: blue;
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
 
+}
+.box{
+  height: 200px;
+  width: 20%;
+  background-color: aqua;
+  margin: 10px;
 }
 
  
